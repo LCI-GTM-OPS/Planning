@@ -1,0 +1,5 @@
+SELECT *
+FROM u_lmssalesops.dim_planning_master
+WHERE half_begin = DATE '2025-07-01'
+  --  AND market_crm_account_id IN ('KR_0016000000KOgPVAA1')
+;
